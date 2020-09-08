@@ -1,0 +1,50 @@
+.body {
+    background-color:#F5F5F5;
+}
+.barra {
+    background-color: white;
+}
+.nav-link {
+    color: #4169E1;
+}
+.title {
+    color: #F0E68C;
+    font-family: 'Grandstander', cursive;
+    margin-right: 30px;
+}
+.sub-title {
+    color: whitesmoke;
+    font-family: 'Grandstander', cursive;
+    margin-right: 30px;
+}
+h2 {
+    color: #191970;
+    font-family: 'Grandstander', cursive;
+}
+.navbar-brand {
+    color: #191970;
+    font-family: 'Grandstander', cursive;
+}
+.imagen {
+    width: 30px;
+    margin-right: 10px;
+}
+.presentacion {
+    background-image: url(../img/pc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -255px;
+    background-size: 100%;
+    height: 330px;
+}
+.foto {
+    width: 220px;
+    height: 220px;
+    border: 5px solid #F0E68C;
+    border-radius: 50%;
+}
+.me {
+    background-color: #F0E68C;
+    padding: 10px;
+    border-radius: 35px;
+}
