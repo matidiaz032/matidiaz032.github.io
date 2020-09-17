@@ -25,7 +25,7 @@ h2 {
     color: #191970;
     font-family: 'Grandstander', cursive;
 }
-.imagen {
+.icono {
     width: 30px;
     margin-right: 10px;
 }
@@ -47,4 +47,12 @@ h2 {
     background-color: #F0E68C;
     padding: 10px;
     border-radius: 35px;
+}
+.imagen {
+    width: 800px;
+    height: 500px;
+}
+.imagen img {
+    width: 530px;
+    height: 350px;
 }
