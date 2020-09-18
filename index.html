@@ -25,13 +25,13 @@
                       <a class="nav-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Sobre Mi</a>
+                      <a class="nav-link" href="#sobre-mi">Sobre Mi</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Proyectos</a>
+                      <a class="nav-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contactame</a>
+                        <a class="nav-link" href="#contacto">Contactame</a>
                       </li>
                   </ul>
                 </div>
@@ -51,11 +51,11 @@
 
       <section class="container mt-4">
          <!-- descripción -->
-         <h2 class="text-center">Sobre Mi</h2>
+         <h2 id="sobre-mi" class="text-center">Sobre Mi</h2>
          
          <article class="row align-items-center">
-            <div class="col-4 mt-2 d-flex justify-content-center">
-               <img src="img/20191202_203854 (1).jpg" class="foto" alt="matias-diaz-foto">
+            <div class="col-4 mt-2 d-flex justify-content-center foto">
+               <img src="img/20191202_203854 (1).jpg" class="img-thumbnail" alt="matias-diaz-foto">
             </div>
             <div class="col-8 mt-2 me">
                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iusto et laudantium ut maxime, molestiae sunt. Incidunt, vitae officiis perferendis quasi eligendi nam? Fugiat blanditiis officiis optio culpa voluptates ad?Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsa perspiciatis nobis quo ab quam, facilis cum cumque rerum corrupti tenetur consequuntur, eligendi dolor, similique repellat assumenda tempore blanditiis eos?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia laboriosam repellat, est architecto molestias voluptatum similique sed expedita autem enim eos fuga dolorem amet illum officiis! Similique voluptate</span>
@@ -67,19 +67,19 @@
             <h2 class="text-center">Conocimientos</h2>
             <div class="row mt-2">
                <ul class="col-4 text-center">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Bootstrap</li>
+                  <img class="skills" src="img/iconos/html.png" alt="html"><strong>HTML</strong>
+                  <img class="skills" src="img/iconos/css.png" alt="css"><strong>CSS</strong>
+                  <img class="skills" src="img/iconos/bootstrap.png" alt="bootstrap"><strong>Bootstrap</strong>
                </ul>
                <ul class="col-4 text-center">
-                  <li>PHP</li>
-                  <li>Laravel</li>
-                  <li>Git</li>
+                  <img class="skills" src="img/iconos/php.png" alt="php"><strong> PHP</strong>
+                  <img class="skills" src="img/iconos/laravel.png" alt="laravel"><strong> Laravel</strong>
+                  <img class="skills" src="img/iconos/git.png" alt="git"><strong> Git</strong>
                </ul>
                <ul class="col-4 text-center">
-                  <li>Javascript</li>
-                  <li>React</li>
-                  <li>MySQL</li>
+                  <img class="skills" src="img/iconos/mysql.png" alt="mysql"><strong>MySQL</strong>
+                  <img class="skills" src="img/iconos/react2.png" alt="react"><strong>React</strong>
+                  <img class="skills" src="img/iconos/js.png" alt="javascript"><strong>Javascript</strong>
                </ul>
             </div>
          </article>
@@ -88,30 +88,30 @@
 
       <!-- Proyectos -->
       <section class="container mt-3">
-         <h2 class="text-center">Proyectos</h2>
+         <h2 id="proyectos" class="text-center">Proyectos</h2>
          <article class="mt-4">
             <div class="row justify-content-around">
-               <div class="imagen col-6">
-                  <img src="img/proyectos/proyecto 1/js.png" alt="proyecto-1">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
+               <div class="col-6">
+                  <img class="img-thumbnail" src="img/proyectos/proyecto 1/js.png" alt="proyecto-1">
+                  <p class="descripcion-black mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
                      velit eaque distinctio dolores dicta doloribus, praesentium iure delectus, ducimus voluptate quia facilis minus earum.</p>
                </div>
-               <div class="imagen col-6">
-                  <img src="img/proyectos/proyecto 2/ecommerce.png" alt="proyecto-2">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
+               <div class="col-6">
+                  <img class="img-thumbnail" src="img/proyectos/proyecto 2/ecommerce.png" alt="proyecto-2">
+                  <p class="descripcion-black mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
                      velit eaque distinctio dolores dicta doloribus, praesentium iure delectus, ducimus voluptate quia facilis minus earum.</p>
                </div>
             </div>   
             <div class="row justify-content-around">
-               <div class="imagen col-6">
-                  <img src="img/proyectos/proyecto 3/juego.png" alt="proyecto-2">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
+               <div class="col-6">
+                  <img class="img-thumbnail" src="img/proyectos/proyecto 3/juego.png" alt="proyecto-2">
+                  <p class="descripcion-black mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
                      velit eaque distinctio dolores dicta doloribus, praesentium iure delectus, ducimus voluptate quia facilis minus earum.</p>
                </div>
 
-               <div class="imagen col-6">
-                  <img src="img/proyectos/proyecto react/avengers.png" alt="proyecto-react">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
+               <div class="col-6">
+                  <img class="img-thumbnail" src="img/proyectos/proyecto react/avengers.png" alt="proyecto-react">
+                  <p class="descripcion-black mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
                      velit eaque distinctio dolores dicta doloribus, praesentium iure delectus, ducimus voluptate quia facilis minus earum.</p>
                </div>
             </div>
@@ -120,35 +120,48 @@
 
       <!-- Contactame -->
       <section class="container mt-3">
-         <h2 class="text-center">Contactame</h2>
+         <h2 id="contacto" class="text-center">Contactame</h2>
          <form class="row flex-column align-items-center mt-4" action="">
-            <label for="Nombre">Nombre Completo</label>
-            <input type="text" name="complete-name" id="nombre">
-            <label for="correo">Correo Electronico</label>
-            <input type="text" name="email" id="email">
-            <label for="motivo">Motivo de tu mensaje</label>
-            <textarea name="motivo" id="motivo" cols="20" rows="5"></textarea>
-            <button class="mt-2" type="submit">Enviar Mensaje</button>
+            <div class="form-group">
+               <label for="nombre">Nombre</label>
+               <input type="text" class="form-control" id="nombre" aria-describedby="nameHelp">
+             </div>
+            
+            <div class="form-group">
+               <label for="exampleInputEmail1">Email</label>
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+             </div>
+
+            <div class="form-group">
+               <label for="exampleFormControlTextarea1">Motivo de su mensaje</label>
+               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+             </div>
+
+             <button type="submit" class="btn btn-primary">Enviar</button>
          </form>
       </section>
 
     </main>
 
-    <footer class="container-fluid mt-3 bg-dark">
-      <div class="row justify-content-around">
-         <div class="col-5 p-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi autem nostrum, sequi non consequatur tempore aliquid totam quam nam excepturi, eaque suscipit iste doloremque ducimus ipsam perferendis maxime? Dolorem, molestiae.</p>
-         </div>
-         <div class="col-5 p-5">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae placeat alias ad, quam, sunt assumenda odit minus at harum expedita deserunt. Voluptatibus dolores quia itaque tempora, reiciendis fuga similique ad!</p>
-         </div>
-      </div>
-    </footer>
+    <footer class="container-fluid">
+       <div class="row justify-content-around align-items-center">
+          <div class="social-media col-5">
+          <a href="https://www.facebook.com/maty.diaz1"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/matidiaz032/?hl=es-la"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/matias-diaz/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/matidiaz032"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="descripcion col-5">
+             <strong>Sitio web diseñado y construido por Matias Diaz® 2020</strong>
+          </div>
+      </div>   
+  </footer>
 
     <script src="js/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4baeadfaf1.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

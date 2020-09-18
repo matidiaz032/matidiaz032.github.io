@@ -6,6 +6,10 @@
 }
 .nav-link {
     color: #4169E1;
+    font-family: 'Grandstander', cursive;
+}
+.nav-link:hover {
+    color: #191970;
 }
 .title {
     color: #F0E68C;
@@ -29,6 +33,9 @@ h2 {
     width: 30px;
     margin-right: 10px;
 }
+.skills{
+    width: 110px;
+}
 .presentacion {
     background-image: url(../img/pc.jpg);
     background-repeat: no-repeat;
@@ -37,22 +44,69 @@ h2 {
     background-size: 100%;
     height: 330px;
 }
-.foto {
-    width: 220px;
-    height: 220px;
+.foto .img-thumbnail {
     border: 5px solid #F0E68C;
     border-radius: 50%;
+    width: 220px;
+    height: 220px;
 }
 .me {
     background-color: #F0E68C;
     padding: 10px;
     border-radius: 35px;
+    font-family: 'Grandstander', cursive;
 }
-.imagen {
-    width: 800px;
-    height: 500px;
+strong {
+    font-family: 'Grandstander', cursive;
 }
-.imagen img {
-    width: 530px;
-    height: 350px;
+
+form {
+    font-family: 'Grandstander', cursive;
+}
+
+form .btn-primary {
+    background-color: #191970;
+    color: #F0E68C;
+    border: none;
+}
+
+form .btn-primary:hover {
+    background-color: #4169E1;
+    color: #F0E68C;
+}
+
+footer{
+    background: #F0E68C;
+    padding: 20px 0;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.social-media a{
+    font-size: 23.5px;
+    display: inline-block;
+    color: #4169E1;
+    border: 1px solid #4169E1;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.social-media a:hover{
+    color: #191970;
+    border-color:  #191970;
+}
+
+.descripcion {
+    color: #191970;
+    font-family: 'Grandstander', cursive;
+}
+
+.descripcion-black {
+    color: black;
+    font-family: 'Grandstander', cursive;
 }
