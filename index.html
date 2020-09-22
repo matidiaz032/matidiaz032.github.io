@@ -12,7 +12,7 @@
  
     <header>
         <!-- barra de navegacion -->
-        <div class="container-fluid navbar-inverse barra">
+        <div class="container-fluid fixed-top navbar-inverse barra">
             <nav class="navbar navbar-expand-lg container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -43,28 +43,32 @@
     <main class="container-fluid">     
       
       <!-- Sobre Mi -->
-      <section class="row flex-column align-items-center pt-5 presentacion">
+      <section class="row flex-column align-items-center mt-5 pt-5 presentacion">
          <h1 class="title">Hola! Me llamo Matias Diaz</h1>
          <h1 class="title">Soy Desarrollador Fullstack.</h1>
-         <h3 class="sub-title">Bienvenido a mi Portfolio.</h3>
+         <h3 class="sub-title">Bienvenido/a mi Portfolio.</h3>
       </section>
 
-      <section class="container mt-4">
+      <section id="sobre-mi" class="container mt-4">
          <!-- descripción -->
-         <h2 id="sobre-mi" class="text-center">Sobre Mi</h2>
+         <h2 class="text-center pt-3">Sobre Mi</h2>
          
          <article class="row align-items-center">
             <div class="col-4 mt-2 d-flex justify-content-center foto">
                <img src="img/20191202_203854 (1).jpg" class="img-thumbnail" alt="matias-diaz-foto">
             </div>
             <div class="col-8 mt-2 me">
-               <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iusto et laudantium ut maxime, molestiae sunt. Incidunt, vitae officiis perferendis quasi eligendi nam? Fugiat blanditiis officiis optio culpa voluptates ad?Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsa perspiciatis nobis quo ab quam, facilis cum cumque rerum corrupti tenetur consequuntur, eligendi dolor, similique repellat assumenda tempore blanditiis eos?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia laboriosam repellat, est architecto molestias voluptatum similique sed expedita autem enim eos fuga dolorem amet illum officiis! Similique voluptate</span>
+               <span>Me encuentro interesado en el mundo del desarrollo web desde el año 2019, cuando me salió la oportunidad de realizar un Bootcamp
+                  brindado por Digital House en conjunto con Fundación Formar, al que asistí sin saber nada sobre este mundo y me encantó.
+                  Desafortunadamente, finalizando el bootcamp, empeoró la pandemia y todavía no tuve la oportunidad de mi primer empleo en el mundo IT,
+                  pero igualmente sigo capacitandome por mi cuenta para estar mas preparado cuando surja una oportunidad de empleo. 
+                  Actualmente me encuentro realizando un curso de Diseño UI/UX con educación IT y Telecom.</span>
             </div>
          </article>
 
          <!-- skills -->
-         <article class="container mt-3">
-            <h2 class="text-center">Conocimientos</h2>
+         <article class="container mt-4">
+            <h2 class="text-center pt-3">Conocimientos</h2>
             <div class="row mt-2">
                <ul class="col-4 text-center">
                   <img class="skills" src="img/iconos/html.png" alt="html"><strong>HTML</strong>
@@ -87,33 +91,35 @@
       </section>
 
       <!-- Proyectos -->
-      <section class="container mt-3">
-         <h2 id="proyectos" class="text-center">Proyectos</h2>
+      <section class="container mt-4">
+         <h2 id="proyectos" class="text-center pt-3">Proyectos</h2>
          <article class="mt-4">
             <div class="row justify-content-around">
                <div class="col-6">
-                  <img class="img-thumbnail" src="img/proyectos/proyecto 1/js.png" alt="proyecto-1">
-                  <p class="descripcion-black mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
-                     velit eaque distinctio dolores dicta doloribus, praesentium iure delectus, ducimus voluptate quia facilis minus earum.</p>
+                  <img class="img-thumbnail" src="img/proyectos/proyecto 3/juego.png" alt="proyecto-2">
+                  <h3 class="text-center pt-3 mr-3">Deportrivia</h3>
+                  <p class="descripcion-black mt-3">Juego de preguntas y respuestas sobre deportes, se puede elegír entre Futbol, Boxeo, Tenis, Basketball, Hockey y Juegos Olimpicos. 
+                     Proyecto integrador realizado para la aprobación del bootcamp con Digital House como Desarrollador Fullstack. Se utiliza HTML, CSS, Javascript, Laravel & MySQL.</p>
                </div>
                <div class="col-6">
-                  <img class="img-thumbnail" src="img/proyectos/proyecto 2/ecommerce.png" alt="proyecto-2">
-                  <p class="descripcion-black mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
-                     velit eaque distinctio dolores dicta doloribus, praesentium iure delectus, ducimus voluptate quia facilis minus earum.</p>
+                  <img class="img-thumbnail" src="img/proyectos/proyecto 1/js.png" alt="proyecto-1">
+                  <h3 class="text-center pt-3 mr-3">Animaciones CSS</h3>
+                  <p class="descripcion-black mt-3">Proyecto realizado mediante un curso de frontend de Udemy para aprender maquetación, diseño responsive y animaciones con CSS. Se utiliza HTML, CSS y Javascript.</p>
                </div>
             </div>   
             <div class="row justify-content-around">
-               <div class="col-6">
-                  <img class="img-thumbnail" src="img/proyectos/proyecto 3/juego.png" alt="proyecto-2">
-                  <p class="descripcion-black mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
-                     velit eaque distinctio dolores dicta doloribus, praesentium iure delectus, ducimus voluptate quia facilis minus earum.</p>
-               </div>
-
+               
                <div class="col-6">
                   <img class="img-thumbnail" src="img/proyectos/proyecto react/avengers.png" alt="proyecto-react">
-                  <p class="descripcion-black mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis debitis itaque aliquam consequuntur quisquam
-                     velit eaque distinctio dolores dicta doloribus, praesentium iure delectus, ducimus voluptate quia facilis minus earum.</p>
-               </div>
+                  <h3 class="text-center pt-4 mr-3">Movie Finder</h3>
+                  <p class="descripcion-black mt-3">Buscador de películas utlizando la API de IMDB, que trae un Poster, Sinopsis, Actores y mas detalles.
+                     Proyecto realizado mediante un curso de Udemy, utilizando React js.</p>
+                  </div>
+               <div class="col-6">
+                  <img class="img-thumbnail" src="img/proyectos/proyecto 2/ecommerce.png" alt="proyecto-2">
+                  <h3 class="text-center pt-2 mr-3">Ecommerce con PHP</h3>
+                  <p class="descripcion-black mt-3">Este proyecto es el mas reciente, todavia me encuentro trabajando en el, se trata de un Ecommerce de gorras utilizando PHP (probablemente ejecute una migración a Laravel) y Javascript, con un carrito de compras y metodos de pago.</p>
+                </div>
             </div>
          </article>
       </section>
@@ -137,7 +143,7 @@
                <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
              </div>
 
-             <button type="submit" class="btn btn-primary">Enviar</button>
+             <button type="submit" class="btn btn-primary" onclick="alert('Su mensaje se envió con exito')">Enviar</button>
          </form>
       </section>
 

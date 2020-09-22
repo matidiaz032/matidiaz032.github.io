@@ -21,8 +21,4 @@
     $headers.='From: '. $email . "\r\n";
     
     $mail = mail($destino, $asunto, $contacto, $headers);
-
-    if ($mail) {
-        echo "<h4>Mensaje enviado con Exito</h4>";
-    }
 ?>
