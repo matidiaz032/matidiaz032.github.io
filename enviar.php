@@ -20,5 +20,9 @@
     $headers.="Content-type:text/html;charset=UTF-8" . "\r\n";
     $headers.='From: '. $email . "\r\n";
     
-    mail($destino, $asunto, $contacto, $headers);
+    $mail = mail($destino, $asunto, $contacto, $headers);
+
+    if ($mail) {
+        echo "<h4>Mensaje enviado con Exito</h4>";
+    }
 ?>
