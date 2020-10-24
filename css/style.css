@@ -1,25 +1,35 @@
 .body {
     background-color:#F5F5F5;
 }
-.barra {
-    background-color: white;
+
+/* barra de navegacion */ 
+.navbar {
+    background-color: #ffffff;
 }
 .nav-link {
-    color: #4169E1;
+    color: #4169E1 !important;
     font-family: 'Grandstander', cursive;
 }
 .nav-link:hover {
-    color: #191970;
+    color: #191970 !important;
+}
+.navbar-light .navbar-brand {
+    color: #191970 !important;
+    font-family: 'Grandstander', cursive;
+}
+.icono {
+    width: 30px;
+    margin-right: 10px;
 }
 .title {
     color: #F0E68C;
     font-family: 'Grandstander', cursive;
-    margin-right: 30px;
+    font-size: 18px;
 }
 .sub-title {
     color: whitesmoke;
     font-family: 'Grandstander', cursive;
-    margin-right: 30px;
+    font-size: 15px;
 }
 h2 {
     color: #191970;
@@ -29,30 +39,23 @@ h3 {
     color: #191970;
     font-family: 'Grandstander', cursive;
 }
-.navbar-brand {
-    color: #191970;
-    font-family: 'Grandstander', cursive;
-}
-.icono {
-    width: 30px;
-    margin-right: 10px;
-}
-.skills{
-    width: 110px;
-}
 .presentacion {
-    background-image: url(../img/pc.jpg);
+    background-image: url(../img/pc-mobile.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: -255px;
-    background-size: 100%;
-    height: 330px;
+    background-size: cover;
+    background-position-y: -15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
+
+/* Sobre mi */
+
 .foto .img-thumbnail {
     border: 5px solid #F0E68C;
     border-radius: 50%;
-    width: 220px;
-    height: 220px;
+    width: 225px;
+    display: block;
+    margin: auto;
 }
 .me {
     background-color: #F0E68C;
@@ -60,24 +63,43 @@ h3 {
     border-radius: 35px;
     font-family: 'Grandstander', cursive;
 }
+
+/* skills */
+.skills{
+    width: 90px;
+}
 strong {
     font-family: 'Grandstander', cursive;
 }
 
-form {
+/* proyectos */
+
+.descripcion {
+    color: #191970;
     font-family: 'Grandstander', cursive;
 }
 
+.descripcion-black {
+    color: black;
+    font-family: 'Grandstander', cursive;
+}
+
+/* contacto */
+
+form {
+    font-family: 'Grandstander', cursive;
+}
 form .btn-primary {
     background-color: #191970;
     color: #F0E68C;
     border: none;
 }
-
 form .btn-primary:hover {
     background-color: #4169E1;
     color: #F0E68C;
 }
+
+/* footer */
 
 footer{
     background: #F0E68C;
@@ -85,7 +107,6 @@ footer{
     overflow: hidden;
     margin-top: 20px;
 }
-
 .social-media a{
     font-size: 23.5px;
     display: inline-block;
@@ -97,20 +118,77 @@ footer{
     line-height: 36px;
     margin-top: 10px;
     text-align: center;
-    margin-right: 30px;
+    margin-right: 25px;
 }
-
 .social-media a:hover{
     color: #191970;
     border-color:  #191970;
 }
 
-.descripcion {
-    color: #191970;
-    font-family: 'Grandstander', cursive;
+/* tablet */
+@media only screen and (min-width: 600px) {
+    .presentacion {
+        background-image: url(../img/pc.jpg);
+        background-position-y: -36px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .sub-title {
+        font-size: 25px;
+    }
+    .foto .img-thumbnail {
+        height: 220px;
+        margin-top: 25px;
+    }
+  }
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+    .presentacion {
+        background-image: url(../img/pc-desk.jpg);
+    }
+    .me {
+        font-size: 14px;
+    }
 }
 
-.descripcion-black {
-    color: black;
-    font-family: 'Grandstander', cursive;
+@media only screen and (min-width: 820px) {
+    .title {
+        padding-right: 20px;
+    }
+    .sub-title {
+        padding-right: 20px;
+    }
+    .foto .img-thumbnail {
+        height: 230px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .presentacion {
+        background-image: url(../img/pc-desk.jpg);
+        padding-top: 30px;
+    }
+    .title {
+        font-size: 42px;
+        padding-right: 35px;
+    }
+    .sub-title {
+        font-size: 30px;
+        padding-right: 35px;
+    }
+    .me {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .presentacion {
+        padding-bottom: 80px;
+    }
+    .me {
+        font-size: 18px;
+    }
 }

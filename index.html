@@ -11,66 +11,64 @@
 <body class="body">
  
     <header>
-        <!-- barra de navegacion -->
-        <div class="container-fluid fixed-top navbar-inverse barra">
-            <nav class="navbar navbar-expand-lg container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                  <img src="img/iconfinder__computer_2324281.svg" class="icono">
-                  <a class="navbar-brand mr-auto" href="#">Matias Diaz</a>
-                  <ul class="navbar-nav mt-2 mt-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#sobre-mi">Sobre Mi</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#proyectos">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contactame</a>
-                      </li>
-                  </ul>
-                </div>
-              </nav>
-        </div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+         <a class="navbar-brand" href="#"><img src="img/iconfinder__computer_2324281.svg" class="icono"></a>
+         <a class="navbar-brand mr-auto" href="#">Matias Diaz</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+       
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <a class="nav-link" href="#">Inicio</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#sobre-mi">Sobre Mi</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#proyectos">Proyectos</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#contacto">Contactame</a>
+             </li>
+           </ul>
+         </div>
+       </nav>
 
     </header>
 
-    <main class="container-fluid">     
+   <main>     
       
-      <!-- Sobre Mi -->
-      <section class="row flex-column align-items-center mt-5 pt-5 presentacion">
+      <section class="presentacion text-center">
          <h1 class="title">Hola! Me llamo Matias Diaz</h1>
          <h1 class="title">Soy Desarrollador Fullstack.</h1>
          <h3 class="sub-title">Bienvenido/a mi Portfolio.</h3>
       </section>
 
-      <section id="sobre-mi" class="container mt-4">
-         <!-- descripción -->
-         <h2 class="text-center pt-3">Sobre Mi</h2>
+       <section id="sobre-mi" class="container mt-4">
          
-         <article class="row align-items-center">
-            <div class="col-4 mt-2 d-flex justify-content-center foto">
+         <h2 class="text-center">Sobre Mi</h2>
+         
+         <article class="row justify-content-center">
+            <div class="col-md-4 col-12 mt-2 foto">
                <img src="img/20191202_203854 (1).jpg" class="img-thumbnail" alt="matias-diaz-foto">
             </div>
-            <div class="col-8 mt-2 me">
+            <div class="col-md-8 col-10 mt-4 me">
                <span>Me encuentro interesado en el mundo del desarrollo web desde el año 2019, cuando me salió la oportunidad de realizar un Bootcamp
                   brindado por Digital House en conjunto con Fundación Formar, al que asistí sin saber nada sobre este mundo y me encantó.
-                  Desafortunadamente, finalizando el bootcamp, empeoró la pandemia y todavía no tuve la oportunidad de mi primer empleo en el mundo IT,
-                  pero igualmente sigo capacitandome por mi cuenta para estar mas preparado cuando surja una oportunidad de empleo. 
-                  Actualmente me encuentro realizando un curso de Diseño UI/UX con educación IT y Telecom.</span>
+                  Desafortunadamente, todavía no tuve la oportunidad de mi primer empleo en una empresa del mundo IT,
+                  pero igualmente sigo capacitandome por mi cuenta para estar mas preparado cuando surja una oportunidad. 
+                  Actualmente me encuentro realizando trabajos freelance y un curso de Diseño UI/UX con educación IT y Telecom.</span>
             </div>
          </article>
 
-         <!-- skills -->
+         
          <article class="container mt-4">
             <h2 class="text-center pt-3">Conocimientos</h2>
             <div class="row mt-2">
-               <ul class="col-4 text-center">
+               <ul class="col-4">
                   <img class="skills" src="img/iconos/html.png" alt="html"><strong>HTML</strong>
                   <img class="skills" src="img/iconos/css.png" alt="css"><strong>CSS</strong>
                   <img class="skills" src="img/iconos/bootstrap.png" alt="bootstrap"><strong>Bootstrap</strong>
@@ -90,41 +88,42 @@
 
       </section>
 
-      <!-- Proyectos -->
+      
       <section class="container mt-4">
          <h2 id="proyectos" class="text-center pt-3">Proyectos</h2>
          <article class="mt-4">
             <div class="row justify-content-around">
-               <div class="col-6">
+               <div class="col-12 col-md-6 proyectos">
                   <img class="img-thumbnail" src="img/proyectos/proyecto 3/juego.png" alt="proyecto-2">
                   <h3 class="text-center pt-3 mr-3">Deportrivia</h3>
                   <p class="descripcion-black mt-3">Juego de preguntas y respuestas sobre deportes, se puede elegír entre Futbol, Boxeo, Tenis, Basketball, Hockey y Juegos Olimpicos. 
                      Proyecto integrador realizado para la aprobación del bootcamp con Digital House como Desarrollador Fullstack. Se utiliza HTML, CSS, Javascript, Laravel & MySQL.</p>
                </div>
-               <div class="col-6">
-                  <img class="img-thumbnail" src="img/proyectos/proyecto 1/js.png" alt="proyecto-1">
-                  <h3 class="text-center pt-3 mr-3">Animaciones CSS</h3>
-                  <p class="descripcion-black mt-3">Proyecto realizado mediante un curso de frontend de Udemy para aprender maquetación, diseño responsive y animaciones con CSS. Se utiliza HTML, CSS y Javascript.</p>
+               <div class="col-12 col-md-6 proyectos">
+                  <a href="http://elclickbolsones.com" target="_blank">
+                  <img class="img-thumbnail" src="img/proyectos/el click/el-click.png" alt="proyecto-1">
+                  <h3 class="text-center pt-3 mr-3">El Click</h3>
+                  </a>
+                  <p class="descripcion-black mt-3">Esta es una Single Page, que realizé trabajando de manera freelance junto a otros dos dev, para una empresa de bolsones de verduras desarrollada utilizando Laravel, contiene un formulario de contacto con Jquery y Ajax y un boton flotante para envío de Whatsapp.</p>
                </div>
             </div>   
             <div class="row justify-content-around">
                
-               <div class="col-6">
+               <div class="col-12 col-md-6 proyectos">
                   <img class="img-thumbnail" src="img/proyectos/proyecto react/avengers.png" alt="proyecto-react">
                   <h3 class="text-center pt-4 mr-3">Movie Finder</h3>
                   <p class="descripcion-black mt-3">Buscador de películas utlizando la API de IMDB, que trae un Poster, Sinopsis, Actores y mas detalles.
                      Proyecto realizado mediante un curso de Udemy, utilizando React js.</p>
                   </div>
-               <div class="col-6">
-                  <img class="img-thumbnail" src="img/proyectos/proyecto 2/ecommerce.png" alt="proyecto-2">
-                  <h3 class="text-center pt-2 mr-3">Ecommerce con PHP</h3>
-                  <p class="descripcion-black mt-3">Este proyecto es el mas reciente, todavia me encuentro trabajando en el, se trata de un Ecommerce de gorras utilizando PHP (probablemente ejecute una migración a Laravel) y Javascript, con un carrito de compras y metodos de pago.</p>
-                </div>
+                  <div class="col-12 col-md-6 proyectos">
+                     <img class="img-thumbnail" src="img/proyectos/proyecto 1/js.png" alt="proyecto-1">
+                     <h3 class="text-center pt-3 mr-3">Animaciones CSS</h3>
+                     <p class="descripcion-black mt-3">Proyecto realizado mediante un curso de frontend de Udemy para aprender maquetación, diseño responsive y animaciones con CSS. Se utiliza HTML, CSS y Javascript.</p>
+                  </div>
             </div>
          </article>
       </section>
 
-      <!-- Contactame -->
       <section class="container mt-3">
          <h2 id="contacto" class="text-center">Contactame</h2>
          <form class="row flex-column align-items-center mt-4" method="POST" action="enviar.php">
@@ -143,21 +142,21 @@
                <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
              </div>
 
-             <button type="submit" class="btn btn-primary" onclick="alert('Su mensaje se envió con exito')">Enviar</button>
+             <button type="submit" class="btn btn-primary">Enviar</button>
          </form>
       </section>
 
     </main>
 
-    <footer class="container-fluid">
+   <footer class="container-fluid">
        <div class="row justify-content-around align-items-center">
-          <div class="social-media col-5">
+          <div class="social-media col-12 col-md-5 text-center">
           <a href="https://www.facebook.com/maty.diaz1"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/matidiaz032/?hl=es-la"><i class="fab fa-instagram"></i></a>
           <a href="https://www.linkedin.com/in/matias-diaz/"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://github.com/matidiaz032"><i class="fab fa-github"></i></a>
           </div>
-          <div class="descripcion col-5">
+          <div class="descripcion col-12 col-md-5 pt-3">
              <strong>Sitio web diseñado y construido por Matias Diaz® 2020</strong>
           </div>
       </div>   
